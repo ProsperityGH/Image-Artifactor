@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+} 
+h1 {
+    text-align: center;
+}
+#image-upload {
+    display: block;
+    margin: 0 auto;
+}
+#canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container * {
+    margin-top: 10px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
